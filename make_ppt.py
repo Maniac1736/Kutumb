@@ -131,7 +131,7 @@ rect(s, 0, 0, prs.slide_width, Inches(0.1), fill=RED)
 # Green bottom stripe
 rect(s, 0, Inches(7.3), prs.slide_width, Inches(0.2), fill=GREEN)
 
-tb(s, "WITCHHUNT 2026  ·  HEALTH & WELLBEING  ·  HOPEWORKS",
+tb(s, "KUTUMB 2026  ·  HEALTH & WELLBEING  ·  HOPEWORKS",
    Inches(0.5), Inches(0.15), Inches(7), Inches(0.38),
    size=9, color=GRAY)
 
@@ -151,7 +151,7 @@ tb(s, "AI-powered family health companion\nVoice-first  ·  100+ languages  ·  
    Inches(0.48), Inches(4.42), Inches(6), Inches(0.75),
    size=13, color=CHARCOAL)
 
-tb(s, "Amrit  ·  Nishita", Inches(0.48), Inches(5.3), Inches(3.5), Inches(0.38),
+tb(s, "Maniac1736", Inches(0.48), Inches(5.3), Inches(3.5), Inches(0.38),
    size=13, bold=True, color=RED)
 tb(s, "HopeWorks Hackathon  ·  April 2026", Inches(0.48), Inches(5.65), Inches(3.5), Inches(0.32),
    size=10, color=GRAY)
@@ -175,14 +175,14 @@ bg(s)
 oval(s, Inches(11.2), Inches(-0.6), Inches(3.2), Inches(3.2), fill=GREEN_SOFT)
 oval(s, Inches(-0.8), Inches(5.2), Inches(2.8), Inches(2.8), fill=RED_SOFT)
 
-section_bar(s, "MEET THE TEAM", "Two builders. One mission. A billion families — and a world that needs better health tools.")
+section_bar(s, "MEET THE TEAM", "One builder. One mission. A billion families — and a world that needs better health tools.")
 
-# Card Amrit
+# Card Maniac1736
 rect(s, Inches(0.45), Inches(1.5), Inches(5.9), Inches(5.65), fill=LIGHT_GRAY, line=RED, lw=Pt(2.5))
 oval(s, Inches(2.25), Inches(1.65), Inches(2.05), Inches(2.05), fill=RED)
-tb(s, "AL", Inches(2.25), Inches(1.78), Inches(2.05), Inches(1.8),
+tb(s, "M", Inches(2.25), Inches(1.78), Inches(2.05), Inches(1.8),
    size=48, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
-tb(s, "Amrit Lahari", Inches(0.55), Inches(3.78), Inches(5.7), Inches(0.5),
+tb(s, "Maniac1736", Inches(0.55), Inches(3.78), Inches(5.7), Inches(0.5),
    size=21, bold=True, color=DARK, align=PP_ALIGN.CENTER)
 tb(s, "Full-Stack Developer & AI Engineer", Inches(0.55), Inches(4.25), Inches(5.7), Inches(0.36),
    size=12, bold=True, color=RED, align=PP_ALIGN.CENTER)
@@ -193,14 +193,14 @@ tb(s, "FastAPI  ·  Anthropic Claude SDK  ·  Firebase\nReact Native  ·  AES-25
    Inches(0.55), Inches(5.1), Inches(5.7), Inches(0.72),
    size=10, color=CHARCOAL, align=PP_ALIGN.CENTER, italic=True)
 
-# Card Nishita
+# Product card
 rect(s, Inches(6.6), Inches(1.5), Inches(5.9), Inches(5.65), fill=LIGHT_GRAY, line=GREEN, lw=Pt(2.5))
 oval(s, Inches(8.55), Inches(1.65), Inches(2.05), Inches(2.05), fill=GREEN)
-tb(s, "NA", Inches(8.55), Inches(1.78), Inches(2.05), Inches(1.8),
+tb(s, "K", Inches(8.55), Inches(1.78), Inches(2.05), Inches(1.8),
    size=48, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
-tb(s, "Nishita Agarwal", Inches(6.7), Inches(3.78), Inches(5.7), Inches(0.5),
+tb(s, "Kutumb", Inches(6.7), Inches(3.78), Inches(5.7), Inches(0.5),
    size=21, bold=True, color=DARK, align=PP_ALIGN.CENTER)
-tb(s, "Product Designer & Frontend Engineer", Inches(6.7), Inches(4.25), Inches(5.7), Inches(0.36),
+tb(s, "Family Health Companion", Inches(6.7), Inches(4.25), Inches(5.7), Inches(0.36),
    size=12, bold=True, color=GREEN_DARK, align=PP_ALIGN.CENTER)
 tb(s, "B.Tech 3\u02b3\u1d48 Year  ·  BITS Pilani", Inches(6.7), Inches(4.58), Inches(5.7), Inches(0.32),
    size=11, color=GRAY, align=PP_ALIGN.CENTER)
@@ -901,7 +901,7 @@ for i, (line, col) in enumerate(zip(taglines, cols_t)):
        size=14, italic=True, color=col)
 
 rect(s, Inches(0.5), Inches(5.22), Inches(4.3), Inches(1.15), fill=LIGHT_GRAY, line=RED, lw=Pt(2))
-tb(s, "Team: Amrit & Nishita", Inches(0.65), Inches(5.3), Inches(4.0), Inches(0.42),
+tb(s, "Team: Maniac1736", Inches(0.65), Inches(5.3), Inches(4.0), Inches(0.42),
    size=16, bold=True, color=DARK)
 tb(s, "WitchHunt 2026  \u00b7  Health & Well-being  \u00b7  HopeWorks",
    Inches(0.65), Inches(5.7), Inches(4.0), Inches(0.32), size=11, color=GRAY)
@@ -915,7 +915,7 @@ tb(s, "India \u2192 SE Asia \u2192 Africa \u2192 Latin America \u2192 Global\n7,
 # ═══════════════════════════════════════════════════════════════
 # SAVE
 # ═══════════════════════════════════════════════════════════════
-out = r"C:\Users\amrit\hackathons\witchhunt\Kutumb_Presentation.pptx"
+out = r"C:\Users\amrit\hackathons\kutumb\Kutumb_Presentation.pptx"
 prs.save(out)
 print(f"Saved: {out}")
 print(f"Slides: {len(prs.slides)}")

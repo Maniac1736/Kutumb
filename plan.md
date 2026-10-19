@@ -311,5 +311,5 @@ Output is forced into a strict JSON schema. Failures fall back to rule-based res
 
 ---
 
-*Built by Amrit Lahari and Nishita Agarwal. BITS Pilani. April 2026.*
-*Two builders. One mission. A billion families.*
+*Built by Maniac1736. BITS Pilani. April 2026.*
+*One builder. One mission. A billion families.*
